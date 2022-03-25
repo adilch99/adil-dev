@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+:root {
+  --font-family: "Urbanist", sans-serif;
+  --alpha-color: #e9d5a1;
+  --beta-color-faded: rgba(33, 37, 41, 0.9);
+  --beta-color: rgb(33, 37, 41);
+  --gama-color: #ae944f;
+}

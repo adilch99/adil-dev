@@ -1,0 +1,51 @@
+.projects_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  background-color: var(--beta-color);
+  padding: 1rem;
+}
+
+.projects_container h1 {
+  color: var(--alpha-color);
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  font-family: "Fredoka One", cursive;
+}
+
+.projects_container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects_container-main-data {
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: var(--alpha-color);
+  margin: 1rem;
+}
+
+.projects_container-main-data-img {
+  width: 100%;
+  background-color: var(--alpha-color);
+  padding: 0.5rem;
+  /* width: 350px; */
+}
+
+.projects_container-main-data-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects_container-main-data p {
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+}

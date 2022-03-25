@@ -1,0 +1,63 @@
+.skill_container {
+  padding: 2rem;
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--beta-color);
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill_container-main {
+  width: 100%;
+}
+
+.skill_container-main h1 {
+  color: var(--alpha-color);
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 3rem;
+  letter-spacing: 3px;
+}
+
+.skill_container-main-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 650px;
+  margin: auto;
+}
+
+.skill_container-main-skils-div {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: var(--alpha-color);
+  text-align: center;
+  width: 100px;
+}
+
+.skill_container-main-skils-div i {
+  font-size: 3rem;
+  color: var(--beta-color);
+}
+
+.skill_container-main-skils-div P {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 692px) {
+  .skill_container-main h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skill_container {
+    padding: 1rem 0;
+  }
+}

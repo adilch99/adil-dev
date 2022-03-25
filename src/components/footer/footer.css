@@ -1,0 +1,54 @@
+.footer_container {
+  padding: 2rem 2rem 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: var(--font-family);
+  background-color: var(--beta-color);
+  text-align: center;
+  height: 100vh;
+}
+
+.footer_container-main {
+  overflow: hidden;
+}
+
+.footer_container-main h1 {
+  margin: 2rem;
+  color: var(--alpha-color);
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: "Fredoka One", cursive;
+}
+
+.footer_icons {
+  font-size: 2rem;
+  margin: auto 1rem;
+  color: var(--alpha-color);
+}
+
+.footer_container-main-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.footer_container-main-handimg {
+  max-width: 600px;
+  padding: 3rem 3rem 0 3rem;
+  transform: translateY(50px);
+  overflow: hidden;
+}
+
+.footer_container-main-handimg img {
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .footer_container {
+    height: 80vh;
+  }
+}

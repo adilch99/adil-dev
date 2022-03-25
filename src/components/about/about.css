@@ -1,0 +1,35 @@
+.about_container {
+  padding: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--alpha-color);
+  font-family: var(--font-family);
+}
+
+.about_container-main {
+  max-width: 300px;
+  text-align: center;
+  background-color: var(--beta-color);
+  padding: 1rem 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about_container-main-img img {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about_container-data {
+  margin: 1rem;
+  color: var(--alpha-color);
+}
+
+.about_container-data p {
+  margin-top: 1rem;
+  text-align: justify;
+}

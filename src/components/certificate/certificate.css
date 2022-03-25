@@ -1,0 +1,98 @@
+.certi_container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  min-height: 100vh;
+  background-color: var(--alpha-color);
+}
+
+.apple_bar {
+  background-color: var(--beta-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apple_left {
+  display: flex;
+  align-items: center;
+}
+
+.apple_left-div {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.apple_red {
+  background-color: rgb(175, 4, 4);
+}
+.apple_yellow {
+  background-color: rgb(206, 206, 4);
+}
+.apple_green {
+  background-color: rgb(4, 163, 4);
+}
+
+.apple_right {
+  display: flex;
+  align-items: center;
+}
+
+.apple_right-icon {
+  color: darkgray;
+}
+
+.certi_container-main-inner {
+  background-color: var(--beta-color-faded);
+  border: 2px solid var(--beta-color);
+  padding: 1rem;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.certi_container-main {
+  border-radius: 5px;
+  width: 800px;
+  overflow: hidden;
+  height: 80vh;
+}
+
+.certi_container-main h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: -1.5rem;
+  letter-spacing: 2px;
+  color: var(--alpha-color);
+  font-family: "Fredoka One", cursive;
+}
+
+.certi_container-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certi_container-main-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--alpha-color);
+  text-align: center;
+}
+
+.certi-freecode-icon {
+  font-size: 3rem;
+  color: var(--alpha-color);
+  margin: 1rem;
+}
