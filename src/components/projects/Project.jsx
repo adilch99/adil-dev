@@ -23,7 +23,7 @@ const Projects = () => {
         <div className="projects_container-main-data">
           <div className="projects_container-main-data-img">
             <a
-              href="https://blissful-pare-6985bb.netlify.app/"
+              href="https://ec-client-ten.vercel.app/"
               target={"_blank"}
               rel="noopener noreferrer"
             >
